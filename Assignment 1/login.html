@@ -1,0 +1,36 @@
+	<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8" />
+    <title>Team Null&rsquo;s MemeMaster Wireframe - Login &amp; Registration</title>
+	<link href="_css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+	  <nav>
+	    <a href="index.html">SEARCH</a>
+	    <a href="dashboard.html">DASHBOARD</a>
+	    <a href="make_your_own.html">MAKE YOUR OWN</a>
+	    <a href="login.html">LOGIN/REGISTER</a>
+	  </nav>
+    </header>
+    <section id="login">
+      <h2>Login</h2>
+      <form id="login_form" action="dashboard.html" method="POST">
+	    <label>Username:</label> <input type="text" placeholder="Username" name="username" class="text_input" maxlength="30" />
+	    <label>Password:</label> <input type="password" placeholder="Password" name="password" class="text_input" maxlength="30" />
+	    <input type="submit" value="LOGIN" class="submit" />
+      </form>
+    </section>
+      <hr />
+    <section id="register">
+      <h2>Register</h2>
+      <form id="registration_form" action="dashboard.html" method="POST">
+	    <label>Username:</label> <input type="text" name="username" class="text_input" maxlength="30" />
+	    <label>Password:</label> <input type="password" name="password" class="text_input" maxlength="30" />
+	    <label>Retype Password:</label> <input type="password" name="password_conf" class="text_input" maxlength="30" />
+	    <input type="submit" value="REGISTER" class="submit" />    
+	  </form>
+    </section>
+  </body>
+</html>

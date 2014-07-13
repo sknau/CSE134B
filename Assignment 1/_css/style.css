@@ -1,0 +1,152 @@
+* { /** RESET MARGIN AND PADDING ON EVERYTHING **/
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  height: 150px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #47A3FF;
+  margin-bottom: 10px;
+}
+
+header nav {
+  text-align: center;
+  width: 1200px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+header nav a {
+  font-size: 12pt;
+  display: inline-block;
+  margin-left: 100px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+header nav a:hover {
+  border-bottom: 4px solid #FFF;
+}
+
+section {
+  margin-top: 20px;
+  width: 1250px;
+  padding: 5px 25px;
+}
+
+section#home {
+  text-align: center;
+}
+
+section h2 {
+  font-size: 24pt;
+  color: #47A3FF;
+  margin-bottom: 50px;
+}
+
+section #search {
+  margin: 0 auto;
+  border: 1px solid #000;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/** This is only for the styling of the image placeholder, will be removed **/
+
+section #search p {
+  margin-top: 90px;
+}
+
+section form input.text_input {
+  width: 420px;
+  margin-left: 100px;
+  height: 28px;
+  padding: 5px;
+  font-size: 12pt;
+  display: inline;
+}
+
+section form input.submit {
+  display: inline;
+  border: none;
+  color: #666;
+  background-color: #EEE;
+  cursor: pointer;
+  width: 140px;
+  
+  height: 43px;
+  margin-left: 20px;
+  font-size: 12pt; 
+  border-radius: 5px;
+}
+
+section form input.submit:hover {
+  background-color: #DDD;
+  color: #333;
+}
+
+section#results {
+  padding-left: 100px;
+}
+
+section .result {
+  width: 250px;
+  margin-left: 70px;
+  height: 300px; 
+  margin-right: 30px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section .result input {
+  margin-top: 10px;
+  width: 190px;
+}
+
+section .result .img_holder {
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 200px;
+  height: 180px;
+  background-color: #CCC;
+}
+
+section form#login_form, section form#registration_form {
+  text-align: right;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+section form#login_form input.text_input, section form#registration_form input.text_input {
+  margin: 0;
+  height: 20px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+section form label {
+  width: 180px;
+  text-align: right;
+  margin-right: 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
